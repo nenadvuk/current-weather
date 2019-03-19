@@ -1,0 +1,40 @@
+
+body {
+  background: radial-gradient(lightcyan, cyan);
+  color:  black;
+}
+.card {
+  box-shadow: 0 10px 55px black;
+  background: white;
+}
+.cityInput {
+  border: 0.15rem solid #118ab2;
+  background: transparent !important;
+  font-size: 1.5rem;
+  color: #118ab2;
+}
+input:focus {
+  background: transparent !important;
+}
+
+.submitBtn {
+  background: #118ab2;
+  border: 0.15rem solid #118ab2;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+  color: black;
+  
+}
+.submitBtn:hover {
+  opacity: 1;
+}
+.feedback {
+  display: none;
+}
+.results {
+  display: none;
+}
+.showItem {
+  display: block;
+}
